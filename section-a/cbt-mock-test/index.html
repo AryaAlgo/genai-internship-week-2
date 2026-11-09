@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CBT Mock Test Engine</title><link rel="stylesheet" href="style.css"></head>
+<body><header><h1>CBT Mock Test Engine</h1><p>Offline practice · Sample test: Biology, Python and Statistics</p></header>
+<main id="app">
+<section class="toolbar"><label>Question file <input id="file" type="file" accept=".json,application/json"></label><button id="start">Start / Restart test</button><strong id="timer">15:00</strong></section>
+<section class="layout"><article class="panel"><div class="meta"><span id="subject">Subject</span><span id="progress">Q 1</span></div><h2 id="question">Load or start the sample test</h2><div id="options"></div><div class="actions"><button id="clear">Clear response</button><button id="mark">Mark for review</button><button id="prev">Previous</button><button id="next">Next</button></div></article>
+<aside class="panel"><h3>Question palette</h3><div id="palette" class="palette"></div><p class="legend">Green: answered · Amber: review · Grey: not answered</p><button id="submit" class="primary">Submit test</button></aside></section>
+<section id="result" class="panel hidden"></section></main><script src="app.js"></script></body></html>

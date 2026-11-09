@@ -1,0 +1,1 @@
+{"manifest_version":3,"name":"Chat Saver","version":"1.0.0","description":"Export AI chat conversations locally as Markdown or PDF.","permissions":["activeTab","scripting","downloads"],"action":{"default_popup":"popup.html"}}

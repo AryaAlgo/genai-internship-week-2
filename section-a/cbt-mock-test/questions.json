@@ -1,0 +1,7 @@
+[
+ {"id":1,"subject":"Biology","q":"Which bond joins amino acids in a protein?","options":["Glycosidic","Peptide","Phosphodiester","Hydrogen"],"answer":1},
+ {"id":2,"subject":"Bioinformatics","q":"Which format commonly stores nucleotide sequences with quality scores?","options":["FASTA","FASTQ","PDB","GFF"],"answer":1},
+ {"id":3,"subject":"Python","q":"Which Python type is mutable?","options":["Tuple","String","List","Integer"],"answer":2},
+ {"id":4,"subject":"Statistics","q":"The median is the:","options":["Most frequent value","Middle value after ordering","Arithmetic average","Range"],"answer":1},
+ {"id":5,"subject":"Molecular Biology","q":"Which enzyme synthesizes RNA from a DNA template?","options":["DNA ligase","RNA polymerase","DNA helicase","Reverse transcriptase"],"answer":1}
+]

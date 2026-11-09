@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Scribbly Notes</title><link rel="stylesheet" href="style.css"></head><body><header><h1>Scribbly Notes</h1><p>Turn typed notes into notebook-style revision pages</p></header><main><section class="controls"><label>Handwriting style <select id="font"><option value="cursive">Cursive</option><option value="rounded">Rounded</option><option value="neat">Neat</option></select></label><label>Ink <select id="ink"><option value="#234b9b">Blue</option><option value="#202020">Black</option><option value="#a32945">Red</option><option value="#28734c">Green</option></select></label><label>Paper <select id="paper"><option value="lined">Lined</option><option value="grid">Grid</option><option value="plain">Plain</option></select></label><button onclick="window.print()">Print / Save PDF</button></section><div class="workspace"><textarea id="notes" placeholder="Type your study notes here...">Ohm's Law
+
+V = IR
+
+Current rises with voltage when resistance remains constant.
+
+Remember:
+• Voltage is measured in volts.
+• Current is measured in amperes.</textarea><section id="preview" class="pages"></section></div></main><script src="app.js"></script></body></html>
